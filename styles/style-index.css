@@ -6,39 +6,63 @@ html {
 body {
   width: 100%;
   height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+#wrap {
+  display: block;
 }
 
 #avatar {
   width: 200px;
   height: 200px;
-  margin: 100px auto 0 auto;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #666;
   border-radius: 50%;
+  margin: auto;
+  background-image: url(https://pbs.twimg.com/profile_images/873638406785564673/j_3pIm1v_400x400.jpg);
+  background-size: contain;
 
-  background-color: #222;
+
+  background-color: #ccf;
 }
 
 #name {
   font-size: 2em;
+  font-weight: bold;
   text-align: center;
   font-family: sans-serif;
+  color: #333;
   width: 300px;
-  margin: 20px auto 10px auto;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 #status {
   font-size: 1.2em;
   text-align: center;
   font-family: sans-serif;
+  color: #333;
+  font-style: oblique;
   width: 300px;
   margin: auto;
 }
 
 #links {
-  width: 300px;
+  width: 350px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 
 .links {
@@ -46,5 +70,37 @@ body {
   height: 40px;
   border-radius: 50%;
 
-  background-color: #222;
+  background-color: #ccf;
+}
+
+#twitter {
+  background-image: url(../logo/twitter.png);
+  background-size: contain;
+}
+
+#vk {
+  background-image: url(../logo/vk.png);
+  background-size: contain;
+}
+
+#instagram {
+  background-image: url(../logo/instagram.png);
+  background-size: contain;
+}
+
+#telegram {
+  background-image: url(../logo/telegram.png);
+  background-size: 120%;
+  background-position: center;
+}
+
+#github {
+  background-color: white;
+  background-image: url(../logo/github.png);
+  background-size: contain;
+}
+
+#mail {
+  background-image: url(../logo/mail.svg);
+  background-size: contain;
 }
