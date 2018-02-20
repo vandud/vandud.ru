@@ -128,7 +128,7 @@ body {
   margin: auto;
 }
 
-#links {
+.links {
   width: 350px;
   display: flex;
   flex-direction: row;
@@ -136,12 +136,10 @@ body {
   margin: 20px auto;
 }
 
-.links {
+.link {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-
-  background-color: #ccf;
 }
 
 #twitter {
